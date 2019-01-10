@@ -1,0 +1,11 @@
+micronaut:
+    application:
+        name: com-jagadish-server2
+    server:
+        port: 8096
+
+eureka:
+    client:
+        registration:
+            enabled: true
+        defaultzone: "${EUREKA_HOST:localhost}:${EUREKA_PORT:8761}"

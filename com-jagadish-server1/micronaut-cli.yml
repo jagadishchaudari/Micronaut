@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.jagadish.server1
+---
+testFramework: junit
+sourceLanguage: java
